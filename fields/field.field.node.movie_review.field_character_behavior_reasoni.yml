@@ -1,0 +1,21 @@
+uuid: 0b159fcb-425c-4a53-bf2f-b287b402079b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_behavior_reasoni
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_character_behavior_reasoni
+field_name: field_character_behavior_reasoni
+entity_type: node
+bundle: movie_review
+label: 'Character Behavior Reasoning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

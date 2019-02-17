@@ -1,0 +1,21 @@
+uuid: 089fb131-7e20-4bff-af01-2c5482785b24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_casting_reasoning
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_casting_reasoning
+field_name: field_casting_reasoning
+entity_type: node
+bundle: movie_review
+label: 'Casting Reasoning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

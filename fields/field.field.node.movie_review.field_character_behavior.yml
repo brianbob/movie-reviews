@@ -1,0 +1,23 @@
+uuid: 76b1fb8c-c007-466d-8a62-5a8080ae7447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_behavior
+    - node.type.movie_review
+id: node.movie_review.field_character_behavior
+field_name: field_character_behavior
+entity_type: node
+bundle: movie_review
+label: 'Character Behavior Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

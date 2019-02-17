@@ -1,0 +1,21 @@
+uuid: 10ef1a8a-fa93-474a-9a47-c8b2246ad15d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_story_reasoning
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_story_reasoning
+field_name: field_story_reasoning
+entity_type: node
+bundle: movie_review
+label: 'Story Reasoning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

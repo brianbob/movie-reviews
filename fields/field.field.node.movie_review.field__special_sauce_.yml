@@ -1,0 +1,23 @@
+uuid: 0cde017d-892f-40a5-9e99-47fb38eeef7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__special_sauce_
+    - node.type.movie_review
+id: node.movie_review.field__special_sauce_
+field_name: field__special_sauce_
+entity_type: node
+bundle: movie_review
+label: '"Special Sauce" Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

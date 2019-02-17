@@ -1,0 +1,23 @@
+uuid: 5e657135-1978-4526-b87e-b952e695bb4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_casting_rating
+    - node.type.movie_review
+id: node.movie_review.field_casting_rating
+field_name: field_casting_rating
+entity_type: node
+bundle: movie_review
+label: 'Casting Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

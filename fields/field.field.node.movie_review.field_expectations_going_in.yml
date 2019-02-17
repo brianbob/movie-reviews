@@ -1,0 +1,21 @@
+uuid: e04c68be-fb06-423c-963d-400ffe2cb260
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expectations_going_in
+    - node.type.movie_review
+  module:
+    - options
+id: node.movie_review.field_expectations_going_in
+field_name: field_expectations_going_in
+entity_type: node
+bundle: movie_review
+label: 'Going in'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

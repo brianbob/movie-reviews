@@ -1,0 +1,24 @@
+uuid: 2ff4f9c0-8a79-4d7e-8ea8-f87ceef9f8ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie_review.field_story_rating
+    - field.field.node.movie_review.field_story_reasoning
+    - node.type.movie_review
+  module:
+    - user
+id: node.movie_review.teaser
+targetEntityType: node
+bundle: movie_review
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_story_rating: true
+  field_story_reasoning: true

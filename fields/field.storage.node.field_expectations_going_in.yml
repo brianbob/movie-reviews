@@ -1,0 +1,33 @@
+uuid: 556283e1-d728-4993-af38-f8573566a24c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_expectations_going_in
+field_name: field_expectations_going_in
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: highexpectations
+      label: 'High Expectations'
+    -
+      value: mediumexpectations
+      label: 'Medium Expectations'
+    -
+      value: lowexpectations
+      label: 'Low Expectations'
+    -
+      value: noexpectations
+      label: 'No Expectations'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

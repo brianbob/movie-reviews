@@ -1,0 +1,24 @@
+uuid: 7bf3f837-3dc4-43f3-90ee-a11e9b92d1c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__special_sauce_reasoning
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field__special_sauce_reasoning
+field_name: field__special_sauce_reasoning
+entity_type: node
+bundle: movie_review
+label: '"Special Sauce" Reasoning'
+description: 'Sometimes movies have that extra special something that just makes them amazing. A sparkle, a shine, a "feel" to them, or a moment that really drives the whole thing home for me. I have a hard time categorizing it since each movie can be special in a different way, so it gets it''s own category.'
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>What made this movie special? Was it special at all?</p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

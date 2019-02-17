@@ -1,0 +1,10 @@
+uuid: 4f4fce73-3c52-4369-8acb-f68a15a63c42
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.movie_review_
+label: 'Movie Review Custom'
+targetEntityType: node
+cache: true

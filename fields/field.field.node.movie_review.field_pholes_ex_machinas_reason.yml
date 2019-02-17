@@ -1,0 +1,21 @@
+uuid: 373508ce-610b-4ce0-9f1c-ccfae8172af2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pholes_ex_machinas_reason
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_pholes_ex_machinas_reason
+field_name: field_pholes_ex_machinas_reason
+entity_type: node
+bundle: movie_review
+label: 'Plotholes / Deus Ex Machinas Reasoning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

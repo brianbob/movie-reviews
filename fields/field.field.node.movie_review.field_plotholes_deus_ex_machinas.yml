@@ -1,0 +1,23 @@
+uuid: 104acc11-e7e0-446b-a1d1-341e018693d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_plotholes_deus_ex_machinas
+    - node.type.movie_review
+id: node.movie_review.field_plotholes_deus_ex_machinas
+field_name: field_plotholes_deus_ex_machinas
+entity_type: node
+bundle: movie_review
+label: 'Plotholes / Deus Ex Machinas Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

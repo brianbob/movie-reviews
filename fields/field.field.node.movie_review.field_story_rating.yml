@@ -1,0 +1,23 @@
+uuid: 7aacc466-8d3c-4883-b9cf-45dc813eaf39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_story_rating
+    - node.type.movie_review
+id: node.movie_review.field_story_rating
+field_name: field_story_rating
+entity_type: node
+bundle: movie_review
+label: 'Story Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

@@ -1,0 +1,19 @@
+uuid: 3dd47989-cf33-4a6a-9ac1-3a02e32cb212
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_casting_reasoning
+field_name: field_casting_reasoning
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: fbb132c1-dfd7-4a83-a021-8a527fb41d94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_overview
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_overview
+field_name: field_overview
+entity_type: node
+bundle: movie_review
+label: Overview
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

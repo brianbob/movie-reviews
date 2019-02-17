@@ -1,0 +1,21 @@
+uuid: b27ae0fa-7667-4a05-bdac-4a27b03eb4fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_effects_reasoning
+    - node.type.movie_review
+  module:
+    - text
+id: node.movie_review.field_special_effects_reasoning
+field_name: field_special_effects_reasoning
+entity_type: node
+bundle: movie_review
+label: 'Special Effects / Design Reasoning'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 4badfee1-aa90-4fd3-aa74-6577593bbe92
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_pholes_ex_machinas_reason
+field_name: field_pholes_ex_machinas_reason
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

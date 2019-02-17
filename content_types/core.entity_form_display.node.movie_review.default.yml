@@ -1,0 +1,237 @@
+uuid: 5e9bdd2f-be23-4e18-b5f8-6ffafccff5d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movie_review.field__special_sauce_
+    - field.field.node.movie_review.field__special_sauce_reasoning
+    - field.field.node.movie_review.field_casting_rating
+    - field.field.node.movie_review.field_casting_reasoning
+    - field.field.node.movie_review.field_character_behavior
+    - field.field.node.movie_review.field_character_behavior_reasoni
+    - field.field.node.movie_review.field_expectations_going_in
+    - field.field.node.movie_review.field_movie
+    - field.field.node.movie_review.field_overview
+    - field.field.node.movie_review.field_pholes_ex_machinas_reason
+    - field.field.node.movie_review.field_plotholes_deus_ex_machinas
+    - field.field.node.movie_review.field_poster
+    - field.field.node.movie_review.field_rating
+    - field.field.node.movie_review.field_special_effects_rating
+    - field.field.node.movie_review.field_special_effects_reasoning
+    - field.field.node.movie_review.field_story_rating
+    - field.field.node.movie_review.field_story_reasoning
+    - field.field.node.movie_review.field_storytelling_rating
+    - field.field.node.movie_review.field_storytelling_reasoning
+    - image.style.medium
+    - node.type.movie_review
+  module:
+    - image
+    - path
+    - text
+id: node.movie_review.default
+targetEntityType: node
+bundle: movie_review
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field__special_sauce_:
+    weight: 24
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field__special_sauce_reasoning:
+    weight: 25
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_casting_rating:
+    weight: 18
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_casting_reasoning:
+    weight: 19
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_character_behavior:
+    weight: 20
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_character_behavior_reasoni:
+    weight: 21
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_expectations_going_in:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_movie:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_overview:
+    weight: 11
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_pholes_ex_machinas_reason:
+    weight: 17
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_plotholes_deus_ex_machinas:
+    weight: 16
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_poster:
+    weight: 2
+    settings:
+      preview_image_style: medium
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_rating:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_special_effects_rating:
+    weight: 22
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_special_effects_reasoning:
+    weight: 23
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_story_rating:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_story_reasoning:
+    weight: 13
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_storytelling_rating:
+    weight: 14
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_storytelling_reasoning:
+    weight: 15
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  node_class:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

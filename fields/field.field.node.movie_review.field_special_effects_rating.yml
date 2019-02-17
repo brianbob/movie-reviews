@@ -1,0 +1,23 @@
+uuid: 4bd74e53-0f3c-4ed4-9090-c8140cfb5226
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_effects_rating
+    - node.type.movie_review
+id: node.movie_review.field_special_effects_rating
+field_name: field_special_effects_rating
+entity_type: node
+bundle: movie_review
+label: 'Special Effects / Design Rating'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 10
+  prefix: ''
+  suffix: ' / 10'
+field_type: decimal

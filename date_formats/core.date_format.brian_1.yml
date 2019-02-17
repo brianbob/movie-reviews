@@ -1,0 +1,8 @@
+uuid: 94f244cf-3da8-47a0-aa96-fc928a619ddd
+langcode: en
+status: true
+dependencies: {  }
+id: brian_1
+label: 'Brian 1'
+locked: false
+pattern: 'F j, Y'

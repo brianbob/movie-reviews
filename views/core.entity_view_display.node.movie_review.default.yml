@@ -1,0 +1,203 @@
+uuid: 09dd8b14-fe4a-48ba-8276-256d81ab603f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movie_review.field__special_sauce_
+    - field.field.node.movie_review.field__special_sauce_reasoning
+    - field.field.node.movie_review.field_casting_rating
+    - field.field.node.movie_review.field_casting_reasoning
+    - field.field.node.movie_review.field_character_behavior
+    - field.field.node.movie_review.field_character_behavior_reasoni
+    - field.field.node.movie_review.field_expectations_going_in
+    - field.field.node.movie_review.field_movie
+    - field.field.node.movie_review.field_overview
+    - field.field.node.movie_review.field_pholes_ex_machinas_reason
+    - field.field.node.movie_review.field_plotholes_deus_ex_machinas
+    - field.field.node.movie_review.field_poster
+    - field.field.node.movie_review.field_rating
+    - field.field.node.movie_review.field_special_effects_rating
+    - field.field.node.movie_review.field_special_effects_reasoning
+    - field.field.node.movie_review.field_story_rating
+    - field.field.node.movie_review.field_story_reasoning
+    - field.field.node.movie_review.field_storytelling_rating
+    - field.field.node.movie_review.field_storytelling_reasoning
+    - image.style.medium
+    - node.type.movie_review
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.movie_review.default
+targetEntityType: node
+bundle: movie_review
+mode: default
+content:
+  field__special_sauce_:
+    weight: 17
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field__special_sauce_reasoning:
+    weight: 18
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_casting_rating:
+    weight: 13
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_casting_reasoning:
+    weight: 14
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_character_behavior:
+    weight: 11
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_character_behavior_reasoni:
+    weight: 12
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_expectations_going_in:
+    weight: 4
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_overview:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_pholes_ex_machinas_reason:
+    weight: 10
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_plotholes_deus_ex_machinas:
+    weight: 9
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_poster:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_rating:
+    weight: 2
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_special_effects_rating:
+    weight: 15
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_special_effects_reasoning:
+    weight: 16
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_story_rating:
+    weight: 5
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_story_reasoning:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_storytelling_rating:
+    weight: 7
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_storytelling_reasoning:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_movie: true
